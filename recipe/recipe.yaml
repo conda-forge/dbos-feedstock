@@ -1,5 +1,5 @@
 context:
-  version: 2.0.0
+  version: "2.1.0"
 
 package:
   name: dbos
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/d/dbos/dbos-${{ version }}.tar.gz
-    sha256: 91c7ce2da4c7de4614a19546e496d1c9ac6160338c0faeed35caa72803ef5cd7
+    sha256: 3ef3d5f1781c951637abd11a8d2145c8739beaca654f4ce7bc03ef436d6ce5c5
 
 build:
   number: 0
@@ -41,7 +41,7 @@ tests:
 about:
   homepage: https://github.com/dbos-inc/dbos-transact-py
   summary: Ultra-lightweight durable execution in Python
-  license: MIT 
+  license: MIT
   license_file: LICENSE
 
 extra:
