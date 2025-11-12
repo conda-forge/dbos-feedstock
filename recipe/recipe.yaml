@@ -1,5 +1,5 @@
 context:
-  version: "2.3.0"
+  version: "2.4.0"
 
 package:
   name: dbos
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/d/dbos/dbos-${{ version }}.tar.gz
-    sha256: 298c53ac81b6b4811f81a4792c3887c3599f52de2fef96e176d76ded6dc01f19
+    sha256: 39687ecc454a504346458a4388fcef6f582d105c5028e3bb2dc835a439dc74e1
 
 build:
   number: 0
